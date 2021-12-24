@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@700&family=Jua&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@700&family=Jua&family=Nanum+Gothic+Coding&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FFF7E9;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 0 5px 15px rgb(255, 212, 132);
+    margin: 0 auto;
+}
+
+.logo img{
+    width: 140px;
+    margin-left: 30px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+nav {
+    width: 1320px;
+    height: 100px;
+    background-color: #FFF7E9;
+}
+
+nav ul {
+    margin-right: 30px;
+    padding: 0;
+}
+
+nav ul li {
+display: inline;
+float: right;
+padding: 20px 25px;
+font-family: 'Jua', sans-serif;
+margin-left: 20px;
+}
+
+nav ul li a {
+    font-size: 22px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+
+.intro {
+    max-width: 100%;
+    height: 610px;
+    background-color: #FFF0D7;
+}
+
+.main_banner {
+    width: 1320px;
+    height: 900px;
+    background-image: url(./img/main1-2.png) ;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    padding: 60px;
+    
+    margin-bottom: 40px;
+    
+}
+
+.main_banner h3 {
+    font-size: 27px;
+    font-family: 'Jua', sans-serif;
+    font-weight: 100;
+    line-height: 1px;
+    color: rgb(66, 59, 59);
+    padding-left: 350px;
+    padding-top: 122px;
+}
+
+.main_banner h1 {
+    font-size: 70px;
+    font-family: 'Jua', sans-serif;
+    font-weight: 30;
+    line-height: 1px;
+    color: rgb(51, 47, 47);
+    padding-left: 320px;
+}
+
+.main_banner_2{
+    max-width: 100%;
+    height: 300px;
+}
+
+.main_banner h2 {
+    margin-top: 340px;
+    margin-left: 440px;
+    margin-bottom: 10px;
+    padding-top: 65px;
+    font-size: 40px;
+    font-family: 'Jua', sans-serif;
+    font-weight: 10;
+    color: rgb(51, 47, 47);
+}
+
+.main_banner_2 p {
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.banner01 {
+    background-color: #FFF7E9;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    max-width: 100%;
+    height:500px;
+    background-image: url(./img/foot3.png);
+    background-size: 250px;
+    background-position-x: 1290px;
+    background-position-y: 10px;
+    background-repeat: no-repeat;
+}
+
+.banner01 img {
+    width: 500px;
+    height: 400px;
+    margin-left: 300px;
+    margin-top: 45px;
+}
+
+.m_c_1_title {
+    font-size: 35px;
+    font-family: 'Nanum Gothic Coding', monospace;
+    float: right;
+    margin: 120px 500px 0 0;
+}
+
+.m_c_1_content {
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 21px;
+    line-height: 35px;
+    font-weight: 500;
+    float: right;
+    text-align: center;
+    margin: 50px 400px 0 0;
+}
+
+.banner02 {
+    background-color: #F4EEC8;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    max-width: 100%;
+    height:470px;
+    background-image: url(./img/foot2.png);
+    background-size: 450px;
+    background-position-x: 520px;
+    background-position-y: -80px;
+    background-repeat: no-repeat;
+}
+
+.banner02 img {
+    width: 500px;
+    height: 400px;
+    margin-right: 300px;
+    margin-top: 50px;
+}
+
+.m_c_2_title {
+    font-size: 35px;
+    font-family: 'Nanum Gothic Coding', monospace;
+    float: left;
+    margin: 100px 0 0 560px;
+}
+
+.m_c_2_content {
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 21px;
+    line-height: 35px;
+    font-weight: 500;
+    float: left;
+    text-align: center;
+    margin: 50px 0 0 400px;
+}
+
+.banner03 {
+    background-color: #FFF7E9;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    max-width: 100%;
+    height:500px;
+    background-image: url(./img/foot.png);
+    background-size: 450px;
+    background-position-x: 920px;
+    background-position-y: -80px;
+    background-repeat: no-repeat;
+}
+
+backgroundimage.banner03 {
+    width: 10px;
+}
+
+.banner03 img {
+    width: 500px;
+    height: 400px;
+    margin-left: 300px;
+    margin-top: 45px;
+}
+
+.m_c_3_title {
+    font-size: 35px;
+    font-family: 'Nanum Gothic Coding', monospace;
+    float: right;
+    margin: 100px 580px 0 0;
+}
+
+.m_c_3_content {
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 21px;
+    line-height: 35px;
+    font-weight: 550;
+    float: right;
+    text-align: center;
+    margin: 50px 400px 0 0;
+}
+
+footer {
+    margin-top: 1790px;
+}
+
+.f_p {
+    background-color: rgb(255, 230, 202);
+    text-align: center;
+    height: 120px;
+    margin: 0;
+    padding: 60px 0 70px 0;
+    box-sizing: border-box;
+}
